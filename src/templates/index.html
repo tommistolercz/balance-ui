@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zůstatek</title>
+    <style>
+        body {
+        }
+        .panel {
+            background-color: yellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <div>Zůstatek</div>
+        <div>{{ latest['total_amount'] }} <span>CZK</span></div>
+        <div>*údaj k {{ latest['date'] }}</div>
+    </div>
+</body>
+</html>
